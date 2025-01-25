@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    tools:context=".ListClientActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#dcf0f8">
+
+        <!-- Nom et Prénom du client -->
+        <TextView
+            android:id="@+id/client_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom Prénom"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Email du client -->
+        <TextView
+            android:id="@+id/client_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: client@example.com"
+            android:textSize="14sp"
+            android:textColor="#757575" />
+
+        <!-- Téléphone du client -->
+        <TextView
+            android:id="@+id/client_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Téléphone: +212 600 000 000"
+            android:textSize="14sp"
+            android:textColor="#757575" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

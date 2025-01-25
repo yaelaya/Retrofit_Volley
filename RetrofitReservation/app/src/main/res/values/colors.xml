@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Définir colorPrimary -->
+    <color name="colorPrimary">#D1B9FF</color> <!-- Bleu clair -->
+
+    <!-- Définir colorAccent -->
+    <color name="colorAccent">#FFEBFD</color> <!-- Cyan clair -->
+
+    <color name="spinner_dropdown_bg">#232222</color>
+</resources>

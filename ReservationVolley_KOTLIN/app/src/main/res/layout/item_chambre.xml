@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    tools:context=".ListChambreActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#dcf0f8">
+
+        <!-- Nom de la chambre -->
+        <TextView
+            android:id="@+id/chambre_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom de la chambre"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Prix de la chambre -->
+        <TextView
+            android:id="@+id/chambre_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prix: 100.0"
+            android:textSize="14sp"
+            android:textColor="#757575" />
+
+        <!-- Disponibilité de la chambre -->
+        <TextView
+            android:id="@+id/chambre_availability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disponible"
+            android:textSize="14sp"
+            android:textColor="#757575" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

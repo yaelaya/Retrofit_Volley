@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    tools:context=".ListReservationActivity">
+
+
+    <!-- CardView avec élévation et coins arrondis -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#dcf0f8">
+
+            <!-- Client Name -->
+            <TextView
+                android:id="@+id/client_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Client Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Room Type -->
+            <TextView
+                android:id="@+id/room_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room Type"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Price -->
+            <TextView
+                android:id="@+id/room_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textSize="16sp"
+                android:textColor="#03143A"
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

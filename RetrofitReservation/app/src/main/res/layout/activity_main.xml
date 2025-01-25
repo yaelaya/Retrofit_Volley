@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/bluee">
+
+    <!-- Navbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <!-- Texte de la Navbar -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/navbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hôtel ENSA"
+                android:textColor="#333333"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/navtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prenez rendez-vous facilement et efficacement"
+                android:textColor="#555555"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Contenu principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="20dp">
+
+        <!-- Bouton pour Réservation -->
+        <Button
+            android:id="@+id/btn_reservation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#2196F3"
+            android:text="Réservation"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <!-- Bouton pour Chambre -->
+        <Button
+            android:id="@+id/btn_chambre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#42A5F5"
+            android:text="Chambre"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <!-- Bouton pour Client -->
+        <Button
+            android:id="@+id/btn_client"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#64B5F6"
+            android:text="Client"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style pour le Spinner -->
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <!-- Couleur du texte dans le Spinner -->
+        <item name="android:textColor">#000000</item> <!-- Texte noir -->
+        <!-- Couleur de fond du Spinner déroulant -->
+        <item name="android:popupBackground">@color/spinner_dropdown_bg</item>
+    </style>
+</resources>
